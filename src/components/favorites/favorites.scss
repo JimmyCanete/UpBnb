@@ -1,0 +1,81 @@
+.favorites {
+
+  .title {
+    margin: auto;
+    width: 80%;
+    text-align: start;
+    padding-bottom: 50px;
+  }
+
+  .favorite-container {
+    width: 80%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -40px;
+    padding-bottom: 60px;
+
+
+    .favorite-house {
+      position: relative;
+      width: 50%;
+
+      .house-img {
+        width: 100%;
+        border-radius: 10px;
+        padding-top: 70%;
+        background-size: cover;
+        background-position: center;
+
+      }
+
+      .fav-icon {
+        width: 50px;
+        height: 30px;
+        position: absolute;
+        right: 0;
+        top: 10px;
+        color: white;
+    }
+  }
+
+  .favorite-info {
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 5px;
+    text-align: start;
+
+    p, h3 {
+      margin-top: 0;
+    }
+
+    p,.price{
+      margin-top: -15px;
+    }
+
+    .city{
+      margin-top: 5px;
+    }
+
+    .price{
+      display: flex;
+      align-items: baseline;
+
+      p{
+        padding-left: 5px;
+      }
+    }
+
+    .rating {
+      margin-top: -10px;
+      display: flex;
+      align-items: baseline;
+
+      p{
+        margin-left: 5px;
+      }
+    }
+  }
+  }
+
+}

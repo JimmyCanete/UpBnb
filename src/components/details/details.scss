@@ -1,0 +1,213 @@
+.detail {
+  .house-container {
+
+    .house-info {
+      width: 80%;
+      margin: auto;
+
+      .title{
+        display: flex;
+      }
+
+      h1 {
+        margin-bottom: 0;
+      }
+
+      .info-2 {
+        display: flex;
+        width: 75%;
+        justify-content: flex-start;
+
+        .rating {
+          display: flex;
+          align-items: center;
+        }
+
+        h3 {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+
+  .img-container {
+    display: flex;
+    position: relative;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+
+    .house-img {
+      width: 100%;
+      border-radius: 10px;
+      padding-top: 56%;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .fav-icon {
+        width: 50px;
+        height: 30px;
+        position: absolute;
+        right: 0;
+        top: 10px;
+        color: white;
+    }
+  }
+
+  .price{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    text-align: start;
+    align-items: flex-end;
+
+    p{
+      font-size: 20px;
+      margin-left: 5px;
+    }
+  }
+
+  .description{
+    margin: auto;
+    width: 80%;
+    text-align: start;
+  }
+
+  .host-container{
+    width: 80%;
+    margin: auto;
+
+    .title{
+      text-align: start;
+    }
+
+    .profile{
+      display: flex;
+
+      .avatar{
+
+        img{
+          width: 50px;
+          border-radius: 50%;
+        }
+      }
+      .host-info{
+
+        .name{
+          margin-left: 10px;
+        }
+
+        .rating{
+          display: flex;
+          margin-left: 10px;
+          margin-top: -10px;
+          align-items: center;
+        }
+      }
+    }
+    .host-description{
+      text-align: start;
+    }
+  }
+
+  .gallery-container{
+    width: 80%;
+    margin: auto;
+
+    .title{
+      text-align: start;
+    }
+
+    .gallery{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .house-photo{
+      width: 40%;
+      border-radius: 10px;
+      margin: 0 5px 5px 5px;
+      padding-top: 46%;
+      background-size: cover;
+      background-position: center;
+
+      img{
+        width: 100%;
+        border-radius: 10px;
+      }
+    }
+  }
+
+  .reviews-container{
+    width: 80%;
+    margin: auto;
+
+    .title{
+      text-align: start;
+    }
+
+    .reviews{
+      .container{
+        .profile{
+          display: flex;
+
+          .avatar{
+            img{
+              width: 50px;
+              border-radius: 50%;
+            }
+          }
+
+          .client-info{
+
+            .name{
+              text-align: start;
+              margin-left: 11px;
+            }
+
+            .date{
+              display: flex;
+              margin-left: 10px;
+              margin-top: -10px;
+              align-items: center;
+              color: darkgray;
+            }
+          }
+        }
+        .comment{
+          margin-bottom: 70px;
+          text-align: start;
+        }
+      }
+    }
+  }
+
+  .house-rules{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+
+    .active{
+      background-color: #004f63;
+      height: 30px;
+      width: 30px;
+      margin-right: 10px;
+      border-radius: 10px;
+      padding: 10px;
+    }
+
+    .not-active{
+      background-color: #949494;
+      height: 30px;
+      width: 30px;
+      margin-right: 10px;
+      border-radius: 10px;
+      padding: 10px;
+    }
+
+  }
+}
